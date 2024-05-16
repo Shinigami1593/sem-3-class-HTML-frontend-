@@ -1,0 +1,49 @@
+.form-class{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: #cefeff;
+    margin-right: 450px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+.left-form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+.right-form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+
+}
+input{
+    border-radius: 5px;
+}
+
+.form{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+    border-right: 900px;
+    gap: 10px;
+    margin-left: 45px;
+    align-content: space-evenly;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button{
+    justify-content: center;
+    margin-left: 200px;
+    
+}
+button{
+    width: 500px;
+}
